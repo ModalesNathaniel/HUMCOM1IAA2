@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>	
+	<head>
+		<title>Forms</title>
+		<meta name="author" content="Nathaniel Laroco. Modales"/>
+		<meta name="Form" content="" />
+	</head>
+
+	<body>
+		<Font face="tahoma">
+		<blockquotes>
+			<form>
+				<legend><h3></h3></legend>
+				<h1><center>SIGN UP!</center></h1>
+				<p>Fields marked (*) are required</p>
+				<fieldset>
+					<legend><h3>Details about you</h3></legend>
+					Name*: <input type="text" size="30" max="25" name="Name*" title="" placeholder="Full Name" /><br/>
+					Email*: <input type="text" size="30" max="25" name="Email*" title="" placeholder="e.g. modalesnathaniel4@example.net" /><br/>
+					Phone*: <input type="text" size="30" max="25" name="Phone" title="" placeholder="Enter your 11 digit number:" /><br/>
+				</fieldset>
+				<fieldset>
+					<legend><h3>Delivery Address</h3></legend>
+					Address*: <input type="text" size="30" max="25" name="Address*" title="" placeholder="House/Apartment no. and your street" /><br/>
+					Barangay*: <input type="text" size="30" max="25" name="Barangay*" title="" placeholder="" /><br/>
+					<br>
+					<label for="City">City*</label>
+					<select id="City">
+						<option value="Baguio">Baguio</option>
+						<option value="Davao">Davao</option>
+						<option value="Quezon">Quezon</option>
+						<option value="Cebu">Cebu</option>
+					</select>
+					<br>
+					Postal Code*: <input type="text" size="30" name="Postal Code" title="" placeholder="" /><br />
+					<br>
+					<label for="Province">Privince*</label>
+					<select id="Province">
+						<option value="Benguet">Benguet</option>
+						<option value="Benguet">Cagayan</option>
+						<option value="Benguet">Isabela</option>
+						<option value="Benguet">Pangasinan</option>
+					</select>
+				</fieldset>
+				<form>
+					<fieldset>
+						<legend><h3>Membership Informations</h3></legend>
+						Username*: <input type="text" size="30" name="Username" title="" placeholder="Atleast 9 alphanumeric character" /><br />
+						Password*: <input type="text" size="30" name="Password" title="" placeholder="" /><br />
+						<form action="Magazine Subcriptions">
+							<label for="Magazine Subcription">Magazine Subcription</label>
+							<input type="checkbox" id="magazine(1)" name="magazine(1)" value="PersonalComputerMagazine">
+							<label for="magazine(1)">PersonalComputerMagazine</label>
+							<input type="checkbox" id="magazine(2)" name="magazine(2)" value="ComputersMagazine">
+							<label for="magazine(2)">ComputersMagazine</label>
+							<input type="checkbox" id="magazine(3)" name="magazine(3)" value="Others">
+							<label for="magazine(3)">Others</label><br><br>
+						</form>
+					</fieldset>
+					<input type="Sign up" onclick="alert('Thank you for signing in. Wait a confirmation or further updates on your account.')" value="Sign Up"><br />
+				</form>
+			</form>
+		</blockquotes>
+		</Font>
+	</body>
+
+
+</html>
+
