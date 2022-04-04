@@ -1,0 +1,41 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: gray;
+    font-family: Times 'Times New Roman', Times, serif;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border-radius:20px;
+}
+.containter{
+    display: block;
+    width:60%; margin:auto;
+    padding:1rem;
+}
+#navigation{
+    height:80px; width:80%;
+    margin: 1rem;
+    margin-top: 1rem;
+    padding:12px;
+}
+article{
+    width:100%; height:auto;
+    border: 1px solid black;
+    margin-top: 1rem;
+    padding:35px;
+}
+.content{
+    height:80%; width:100%;
+    color: black;
+    border: 1px solid black;
+    padding:35px;
+}
+.menu{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
