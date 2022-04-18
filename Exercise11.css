@@ -1,0 +1,115 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #014a7aab;
+    font-family: Calibri;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    border-radius:20px;
+}
+.container{
+    display: block;
+    width:60%; margin:auto;
+    padding:1rem;
+}
+#contain_header{
+    width:100%;
+    height:auto;
+    display: flex;
+    border: 1px solid blue;
+}
+#head{
+    height:100px; width:20%;
+    float:left;
+    padding:50px;
+    background-image: url("https://i.pinimg.com/736x/2c/71/eb/2c71eb48565d1e4b955fd236b6dd3af4.jpg");
+    background-size:cover; background-position: 20%;
+    mix-blend-mode: lighten;
+    border: 1px solid black;
+    margin: 5%;
+}
+#navigation{
+    height:80px; width:80%;
+    margin: 1rem;
+    margin-top: 1rem;
+    padding:12px;
+}
+article{
+    width:100%;
+    height:auto;
+    border: 1px solid purple;
+    margin-top: 1rem;
+    padding:35px;
+}
+.content{
+    height:80%; width:100%;
+    color: green;
+    border: 1px solid purple;
+    padding:35px;
+}
+.card-body{
+    background-color: purple;
+    padding:5px; border-radius:0 0 20px 20px;
+    height:35%; color:rgb(0, 0, 0); 
+}
+.content:hover{
+    transform:scale(1.025);
+    transition:all 0.2s;
+}
+.footer{
+    height:150px; width:100%;
+    border: 1px solid purple;
+    margin: 1rem 0 5rem 0; float:left;
+    padding:12px;	
+    color: yellow;
+}
+h1{
+    font-size:20pt;
+    text-transform:uppercase; font-weight:bolder;
+    color: yellow;
+}
+p{
+    font-size: 0.9rem;
+}
+.container {
+  padding: 2px 16px;
+
+}
+#img{
+    width:100%; height:70%;
+    border-radius: 10px 10px 0 0;object-fit:cover;
+}
+.menu{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.menu a{
+    display: inline-flex;
+    height:45px;
+    padding: 0.8rem 1rem;
+    margin: 0 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem; font-weight:400;
+    color: #f703ff;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+#active{
+    background-color: #f703ff;
+    color: #000000;font-weight:800;
+}
+.menu a:active {
+    color: #03f2fa62;
+    background-color:#f703ff;
+}
+#footer p, #footer h1{
+    color:white;
+    text-align:center;
+}
